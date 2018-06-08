@@ -227,13 +227,18 @@ nav ul li a {
 
 .logo {
   float: left;
+  line-height: 32px;
+  margin-bottom: 0;
+  padding-top: 13px;
 }
 
-.logo img {
-  width: 100px;
-  height: 50px;
+.logo a{
+  font-weight:600;
+  color:#9b1111;
 }
-
+.logo a:hover{
+  color:rgb(179, 101, 101);
+}
 .responsive {
   display: none;
   font-size: 23px;
@@ -253,7 +258,7 @@ nav ul li a {
   text-align:center;
   padding:0;
   cursor:pointer;
-  background-color:grey;
+  background-color:#9b1111;
   color:white;
   display:flex;
 }
@@ -300,6 +305,15 @@ nav ul li a {
   grid-column: 5 / span 2;
 }
 
+#header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color:	#9b1111;
+  text-align:right;
+}
+
 .images-grid img{
   height: 100%;
   width: 100%;
@@ -314,15 +328,6 @@ nav ul li a {
   -moz-transform: scale(.95);
   -webkit-transform: scale(.95);
   transform: scale(.95);
-}
-
-#header h1 {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  color:	#282828;
-  text-align:right;
 }
 
 /****** OVERLAY *****/
@@ -353,26 +358,6 @@ nav ul li a {
 .hover-container:hover .hover-text {
   opacity: 0.5;
 }
-/*
-.header-content p {
-  font-size: 13px;
-  letter-spacing: 5px;
-  margin-top: 0;
-  margin-bottom: 30px;
-  text-transform: capitalize;
-  color: #fff;
-  font-weight: 500;
-}
-
-.header-content .list-social li {
-  float: left;
-  margin-right: 20px;
-}
-
-.header-content .list-social li i {
-  color: #fff;
-  font-size: 15px;
-}*/
 
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
@@ -380,6 +365,24 @@ nav ul li a {
 
 #about h2, p{
   text-align:left;
+}
+
+#about button{
+  letter-spacing:.1em;
+  cursor:pointer;
+  background-color: white;
+  border-style:solid;
+  border-width: 1.2px;
+  border-color:black;
+  padding:1em;
+  border-radius:3px;
+}
+#about button:hover{
+  opacity:.7;
+  background-color:#9b1111;
+  color:white;
+  border-color:white;
+  transition:0.5s;
 }
 
 /*-----------------------------------------------------------------------------------*/
