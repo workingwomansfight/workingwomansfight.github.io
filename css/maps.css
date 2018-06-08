@@ -1,0 +1,188 @@
+
+/*
+  Theme Name: Folio
+  Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  Author: BootstrapMade.com
+  Author URL: https://bootstrapmade.com
+*/
+
+/*----------------------------------------------------------------------------------*/
+/*  Maps
+/*-----------------------------------------------------------------------------------*/
+#maps{
+  text-align:center;
+}
+iframe{
+  width: 100%;
+  padding:1em;
+  height:520px;
+}
+#maps h3{
+  padding:1em;
+  text-transform:uppercase;
+}
+/*----- IMAGES -----*/
+#header {
+  height:100vh;
+  width:100%;
+  padding:1em;
+}
+
+.images-grid {
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  grid-gap:1em;
+  height:100vh;
+  position: relative;
+}
+
+.header-img{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+
+#header-img1{
+  grid-row: 1 / span 2;
+}
+
+#header-img2{
+  grid-column: 2 / span 2;
+}
+
+#header-img3{
+  grid-row: 3 / span 1;
+}
+
+#header-img4{
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 2;
+}
+
+#header-img5{
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.images-grid img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.header-img:hover {
+  -moz-transform: scale(.98);
+  -webkit-transform: scale(.98);
+  transform: scale(.98);
+}
+
+#header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color:	#282828;
+  text-align:right;
+}
+/*
+.header-content p {
+  font-size: 13px;
+  letter-spacing: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-content .list-social li {
+  float: left;
+  margin-right: 20px;
+}
+
+.header-content .list-social li i {
+  color: #fff;
+  font-size: 15px;
+}*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  About
+/*-----------------------------------------------------------------------------------*/
+#about{
+}
+
+#about h2, p{
+  text-align:left;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Projects
+/*-----------------------------------------------------------------------------------*/
+
+#projects,  #projects-blog {
+  height: auto;
+  width: 100%;
+  background: #f7f7f7;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+#projects-blog {
+  background: #fff;
+  padding-bottom: 30px;
+}
+
+#projects .projects-block {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+}
+
+#projects .projects-block .projects-info {
+  position: relative;
+}
+
+.projects-block .projects-info img {
+  max-width: 100%;
+}
+
+.projects-block .projects-info .projects-txt {
+  padding: 25px 0px;
+  position: relative;
+}
+
+.projects-block .projects-info .projects-txt h4 a {
+  display: block;
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0 0 13px 0;
+  font-weight: 500;
+  color: #292929;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.projects-block .projects-info .projects-txt h4 a:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.projects-block .projects-info .projects-txt p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
